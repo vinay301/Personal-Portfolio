@@ -38,7 +38,7 @@ const Home = () => {
     }
     else{
       screenScale = [3,3,3];
-      screenPosition = [0,-4,4]
+      screenPosition = [0,-4,-4]
     }
 
     return [screenScale, screenPosition];
@@ -72,10 +72,10 @@ const Home = () => {
                setCurrentStage = {setCurrentStage}
             />
             <Plane
+              scale = {planeScale}
+              position = {planePosition}
               isRotating = {isRotating}
-              planeScale = {planeScale}
-              planePosition = {planePosition}
-              rotation = {[0, 20, 0]}
+              rotation = {[0, 20.1, 0]}
             />
         </Suspense>
       </Canvas>
