@@ -2,7 +2,7 @@ import { skills, experiences } from "../constants"
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import CTA from "../components/CTA";
-
+import Socials from "../components/Socials";
 
 const About = () => {
   return (
@@ -16,11 +16,12 @@ const About = () => {
           through hands-on learning and building applications.
         </p>
       </div>
+        {/* Skills */}
       <div className="py-10 flex flex-col">
         <h3 className="subhead-text">My Skills</h3>
         <div className="mt-16 flex flex-wrap gap-12">
-          {skills.map((skill) => (
-            <div className="block-container w-20 h-20">
+          {skills.map((skill,index) => (
+            <div className="block-container w-20 h-20" key={`skills-point-${index}`}>
               <div className="btn-back rounded-xl"/>
               <div className="btn-front rounded-xl flex justify-center items-center">
                 <img src={skill.imageUrl} alt={skill.name} className="w-1/2 h-1/2 object-contain"/>
@@ -29,7 +30,7 @@ const About = () => {
           ))}
         </div>
       </div>
-
+            {/* work-experience */}
       <div className="py-16">
         <h3 className="subhead-text">Work Experience</h3>
           <div className="mt-5 flex flex-col gap-3 text-slate-500">
@@ -72,6 +73,9 @@ const About = () => {
             </VerticalTimeline>
           </div>
       </div>
+
+      <hr className="border-slate-200"/>
+      <Socials/>
 
       <hr className="border-slate-200"/>
       <CTA/>

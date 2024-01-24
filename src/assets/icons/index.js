@@ -26,7 +26,14 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
-
+import bootstrap from './bootstrap.svg'
+import dotnet from './dotnet.svg'
+import csharp from './csharp.svg'
+import cpp from './cpp.svg'
+import sql from './sql.svg'
+import angular from './angular.svg'
+import leetcode from './leetcode.svg'
+import gfg from './gfg.svg'
 export {
     css,
     express,
@@ -55,5 +62,13 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    bootstrap,
+    dotnet,
+    csharp,
+    cpp,
+    sql,
+    angular,
+    leetcode,
+    gfg
 }

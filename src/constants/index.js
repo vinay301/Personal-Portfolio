@@ -23,7 +23,15 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    bootstrap,
+    dotnet,
+    csharp,
+    cpp,
+    sql,
+    angular,
+    leetcode,
+    gfg
 } from "../assets/icons";
 
 export const skills = [
@@ -63,9 +71,14 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
+        imageUrl: sql,
+        name: "Microsoft SQL Server",
+        type: "Database",
+    },
+    {
+        imageUrl: bootstrap,
+        name: "Bootstrap",
+        type: "Frontend-Design",
     },
     {
         imageUrl: mui,
@@ -81,6 +94,11 @@ export const skills = [
         imageUrl: nodejs,
         name: "Node.js",
         type: "Backend",
+    },
+    {
+        imageUrl: angular,
+        name: "Angular",
+        type: "Frontend",
     },
     {
         imageUrl: react,
@@ -106,6 +124,21 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: dotnet,
+        name: "TypeScript",
+        type: "Backend",
+    },
+    {
+        imageUrl: csharp,
+        name: "MongoDB",
+        type: "Programming",
+    },
+    {
+        imageUrl: cpp,
+        name: "MongoDB",
+        type: "Programming",
     }
 ];
 
@@ -168,17 +201,29 @@ export const socialLinks = [
     {
         name: 'Contact',
         iconUrl: contact,
-        link: '/contact',
+        link: '/contacts',
     },
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: import.meta.env.VITE_APP_GITHUB_LINK
+        // link: 'https://github.com/vinay301',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: import.meta.env.VITE_APP_LINKEDIN_LINK
+    },
+    {
+        name: 'Leetcode',
+        iconUrl: leetcode,
+        link: import.meta.env.VITE_APP_LEETCODE_LINK
+    },
+    {
+        name: 'GeeksForGeeks',
+        iconUrl: gfg,
+        link: import.meta.env.VITE_APP_GFG_LINK
+       
     }
 ];
 
