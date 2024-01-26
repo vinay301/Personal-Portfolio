@@ -31,7 +31,9 @@ import {
     sql,
     angular,
     leetcode,
-    gfg
+    gfg,
+    output,
+    exposys
 } from "../assets/icons";
 
 export const skills = [
@@ -144,57 +146,31 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Associate Software Developer",
+        company_name: "Nagarro",
+        icon: output,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "March 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Developed and maintained software applications using .NET technologies, ensuring high levels of performance, security, and scalability.",
+            "Collaborated with team members to design, implement, and test new features, enhancements, and bug fixes in both .NET and Angular frameworks.",
+            "Participated in code reviews, providing constructive feedback and ensuring adherence to coding standards.",
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Front-end Developer",
+        company_name: "Exposys Data Labs",
+        icon: exposys,
         iconBg: "#fbc3bc",
         date: "Jan 2021 - Feb 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Utilized HTML and CSS to design and implement the frontend of the video chat application. Ensured a user-friendly and visually appealing interface that aligns with modern design standards.",
+            "Implemented the Agora SDK to enable real-time communication features, including video streaming, voice communication, and interactive collaboration.",
+            "Created comprehensive documentation for the developed application, including technical specifications, API documentation, and user guides.",
         ],
     },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+   
 ];
 
 export const socialLinks = [
@@ -231,43 +207,30 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Realtime Grocery Store',
+        description: 'This open-source project is a Realtime Grocery Store Web Application built using Node.js, Express.js, MongoDB, Socket.IO for realtime integration, Passport for authentication, and Stripe as the payment gateway.',
+        link: 'https://github.com/vinay301/Realtime-Grocery-App',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Baithak - Realtime Chat App',
+        description: '"Baithak", A Realtime ChatApp Created for smooth interaction between multiple users, This WebApp is created by using Angular and DotNet (SignalR).',
+        link: 'https://github.com/vinay301/Baithak---Realtime-ChatApp-Using-Angular-.Net',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Authentication System using Angular & .NET',
+        description: 'Secure Web Applications with Angular and .NET Core Authentication This project focuses on building robust and secure web applications by implementing a seamless authentication system using Angular on the frontend and .NET Core on the backend.',
+        link: 'https://github.com/vinay301/Authentication-Using-Angular-.NET-Core',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
         name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers using ASP.NET CORE WEB API and Angular.',
+        link: 'https://github.com/vinay301/PropertyListingWebApp',
     },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+   
 ];

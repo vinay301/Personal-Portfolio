@@ -34,6 +34,8 @@ import sql from './sql.svg'
 import angular from './angular.svg'
 import leetcode from './leetcode.svg'
 import gfg from './gfg.svg'
+import output from './output.png'
+import exposys from './exposys.png'
 export {
     css,
     express,
@@ -70,5 +72,7 @@ export {
     sql,
     angular,
     leetcode,
-    gfg
+    gfg,
+    output,
+    exposys
 }

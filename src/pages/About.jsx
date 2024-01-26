@@ -3,6 +3,7 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import CTA from "../components/CTA";
 import Socials from "../components/Socials";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -12,7 +13,7 @@ const About = () => {
       </h1>
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Associate Software Developer @<span className="blue-gradient_text font-semibold drop-shadow">Nagarro</span>, specializing in computer science and engineering 
+          Associate Software Developer @<Link to={import.meta.env.VITE_APP_NAGARRO_LINK}><span className="blue-gradient_text font-semibold drop-shadow">Nagarro</span></Link>, specializing in computer science and engineering 
           through hands-on learning and building applications.
         </p>
       </div>
@@ -35,8 +36,9 @@ const About = () => {
         <h3 className="subhead-text">Work Experience</h3>
           <div className="mt-5 flex flex-col gap-3 text-slate-500">
             <p>
-              Associate Software Developer @<span className="blue-gradient_text font-semibold drop-shadow">Nagarro</span>, specializing in computer science and engineering 
-              through hands-on learning and building applications.
+            As a Full Stack Web Developer @<Link to={import.meta.env.VITE_APP_NAGARRO_LINK}><span className="blue-gradient_text font-semibold drop-shadow">Nagarro</span></Link>,
+            I have been instrumental in designing and implementing cutting-edge web applications that meet the dynamic needs of our clients. Working collaboratively in a cross-functional team, I've demonstrated proficiency in both .NET and Angular, as well as the MERN stack, to deliver robust and scalable solutions.
+             
             </p>
           </div>
           <div className="mt-12 flex">
